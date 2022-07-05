@@ -17,4 +17,4 @@ class Student:
             map(lambda s: isinstance(s, str), attrs)
         ):
             return {k: self.__dict__[k] for k in attrs if k in self.__dict__}
-        return self.
+        return self.__dict__
