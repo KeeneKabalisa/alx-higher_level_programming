@@ -13,4 +13,4 @@ class Student:
 
     def to_json(self):
         """ Return a dict reps of a Student"""
-        return self.
+        return self.__dict__
