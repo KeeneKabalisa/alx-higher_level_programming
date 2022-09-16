@@ -1,4 +1,4 @@
-o#!/usr/bin/python3
+#!/usr/bin/python3
 """ Take in an argument and display all values
     in the states table of hbtn_0e_0_usa
     where name matches the argument """
